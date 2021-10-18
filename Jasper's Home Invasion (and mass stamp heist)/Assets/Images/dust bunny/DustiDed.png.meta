@@ -1,7 +1,64 @@
 fileFormatVersion: 2
 guid: 012471bb950b7634a863c1a68f239176
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -3498207361156283764
+    second: DustiDed_0
+  - first:
+      213: -4671764462834725101
+    second: DustiDed_1
+  - first:
+      213: -8920770062460422862
+    second: DustiDed_2
+  - first:
+      213: 4774197326728531616
+    second: DustiDed_3
+  - first:
+      213: -729074088074157637
+    second: DustiDed_4
+  - first:
+      213: 3088988081622723705
+    second: DustiDed_5
+  - first:
+      213: 8197267927331814120
+    second: DustiDed_6
+  - first:
+      213: -5211446926640859896
+    second: DustiDed_7
+  - first:
+      213: -1595230419058811314
+    second: DustiDed_8
+  - first:
+      213: 3043825528574526822
+    second: DustiDed_9
+  - first:
+      213: 153492460605501304
+    second: DustiDed_10
+  - first:
+      213: -8494019465161526539
+    second: DustiDed_11
+  - first:
+      213: -3372148425793245768
+    second: DustiDed_12
+  - first:
+      213: 7546120613076837678
+    second: DustiDed_13
+  - first:
+      213: 8887052147029043977
+    second: DustiDed_14
+  - first:
+      213: 2000193735838168027
+    second: DustiDed_15
+  - first:
+      213: 4752535013158985774
+    second: DustiDed_16
+  - first:
+      213: -3748662180627756446
+    second: DustiDed_17
+  - first:
+      213: 1798413615683480828
+    second: DustiDed_18
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -31,16 +88,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -71,9 +128,420 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: DustiDed_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 873
+        width: 235
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c828f9770fed37fc0800000000000000
+      internalID: -3498207361156283764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DustiDed_1
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 873
+        width: 235
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f417e19fe8a2fb0800000000000000
+      internalID: -4671764462834725101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DustiDed_2
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 873
+        width: 235
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2357b1874ee033480800000000000000
+      internalID: -8920770062460422862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DustiDed_3
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 873
+        width: 235
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae06438c2b514240800000000000000
+      internalID: 4774197326728531616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DustiDed_4
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 873
+        width: 235
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb1e56dcafec1e5f0800000000000000
+      internalID: -729074088074157637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DustiDed_5
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 582
+        width: 235
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97ca9884b4a4eda20800000000000000
+      internalID: 3088988081622723705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DustiDed_6
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 582
+        width: 235
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eab059bfbb82c170800000000000000
+      internalID: 8197267927331814120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DustiDed_7
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 582
+        width: 235
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80535c3b1a83da7b0800000000000000
+      internalID: -5211446926640859896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DustiDed_8
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 582
+        width: 235
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4e1a11c26a9cd9e0800000000000000
+      internalID: -1595230419058811314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DustiDed_9
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 592
+        width: 239
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66543fcf037dd3a20800000000000000
+      internalID: 3043825528574526822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DustiDed_10
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 301
+        width: 239
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87f67166490512200800000000000000
+      internalID: 153492460605501304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DustiDed_11
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 295
+        width: 267
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f23bc7bc4e2f1a80800000000000000
+      internalID: -8494019465161526539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DustiDed_12
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 295
+        width: 267
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bd63b68fd8b331d0800000000000000
+      internalID: -3372148425793245768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DustiDed_13
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 298
+        width: 244
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e25a2be67b439b860800000000000000
+      internalID: 7546120613076837678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DustiDed_14
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 319
+        width: 198
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90be90497d6255b70800000000000000
+      internalID: 8887052147029043977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DustiDed_15
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 69
+        width: 140
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd37892fa9d12cb10800000000000000
+      internalID: 2000193735838168027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DustiDed_16
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 115
+        width: 63
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e20a2f91a6564f140800000000000000
+      internalID: 4752535013158985774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DustiDed_17
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 129
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26acdb4ab931afbc0800000000000000
+      internalID: -3748662180627756446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DustiDed_18
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 136
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfc2a02b7af35f810800000000000000
+      internalID: 1798413615683480828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

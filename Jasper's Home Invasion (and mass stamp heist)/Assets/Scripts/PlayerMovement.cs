@@ -47,7 +47,10 @@ public class PlayerMovement : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Enemy")
+        {
             Debug.Log("Damaged");
+            Destroy(this.gameObject);
+        }
         //if (collision.gameObject.tag == "Health")
         //    Debug.Log("Healed");
     }

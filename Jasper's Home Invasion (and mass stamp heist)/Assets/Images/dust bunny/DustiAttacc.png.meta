@@ -1,7 +1,37 @@
 fileFormatVersion: 2
 guid: 023d54440f46fe144ad27d5f07054207
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -4487342226106227944
+    second: DustiAttacc_0
+  - first:
+      213: 3678961831829307768
+    second: DustiAttacc_1
+  - first:
+      213: -312634888754241331
+    second: DustiAttacc_2
+  - first:
+      213: 8933361221658825820
+    second: DustiAttacc_3
+  - first:
+      213: -6800780212815910773
+    second: DustiAttacc_4
+  - first:
+      213: -2199771975328805519
+    second: DustiAttacc_5
+  - first:
+      213: 2318453567884778896
+    second: DustiAttacc_6
+  - first:
+      213: -8767457429630292115
+    second: DustiAttacc_7
+  - first:
+      213: -4465369827690916326
+    second: DustiAttacc_8
+  - first:
+      213: 1236386035966233562
+    second: DustiAttacc_9
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -31,16 +61,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -71,9 +101,231 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: DustiAttacc_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 582
+        width: 235
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 813e3533502c9b1c0800000000000000
+      internalID: -4487342226106227944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DustiAttacc_1
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 587
+        width: 235
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87108684b4c4e0330800000000000000
+      internalID: 3678961831829307768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DustiAttacc_2
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 596
+        width: 235
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc0e86f993c49abf0800000000000000
+      internalID: -312634888754241331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DustiAttacc_3
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 608
+        width: 235
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c54593b33bca9fb70800000000000000
+      internalID: 8933361221658825820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DustiAttacc_4
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 330
+        width: 235
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b882a93bd66ce91a0800000000000000
+      internalID: -6800780212815910773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DustiAttacc_5
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 318
+        width: 235
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17dcaa71b07d871e0800000000000000
+      internalID: -2199771975328805519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DustiAttacc_6
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 307
+        width: 235
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09d520e7c3dcc2020800000000000000
+      internalID: 2318453567884778896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DustiAttacc_7
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 296
+        width: 235
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6fe6837bebb35680800000000000000
+      internalID: -8767457429630292115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DustiAttacc_8
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 0
+        width: 235
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a165cbddcc1d702c0800000000000000
+      internalID: -4465369827690916326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DustiAttacc_9
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 0
+        width: 235
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adb450f8c86882110800000000000000
+      internalID: 1236386035966233562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
