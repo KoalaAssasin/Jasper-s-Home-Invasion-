@@ -1,7 +1,28 @@
 fileFormatVersion: 2
 guid: f3081d61e64d09f42ba0448ef6eb0945
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -6380051037952645700
+    second: JasperRun_0
+  - first:
+      213: 6880526774845976068
+    second: JasperRun_1
+  - first:
+      213: -3775926123904131946
+    second: JasperRun_2
+  - first:
+      213: -1358867671244984072
+    second: JasperRun_3
+  - first:
+      213: 5977940070146258098
+    second: JasperRun_4
+  - first:
+      213: -9153780611910785481
+    second: JasperRun_5
+  - first:
+      213: 2903271969548598040
+    second: JasperRun_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -31,16 +52,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -71,9 +92,168 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: JasperRun_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 626
+        width: 480
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb568f942618577a0800000000000000
+      internalID: -6380051037952645700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JasperRun_1
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 629
+        width: 480
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40e224aa5aa8c7f50800000000000000
+      internalID: 6880526774845976068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JasperRun_2
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 620
+        width: 462
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c939e2237399bc0800000000000000
+      internalID: -3775926123904131946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JasperRun_3
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 322
+        width: 449
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f03ea67d05542de0800000000000000
+      internalID: -1358867671244984072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JasperRun_4
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 316
+        width: 454
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b434a142d8e5f250800000000000000
+      internalID: 5977940070146258098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JasperRun_5
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 314
+        width: 463
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7362333480d37f080800000000000000
+      internalID: -9153780611910785481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JasperRun_6
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 14
+        width: 465
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81bfa4f597e7a4820800000000000000
+      internalID: 2903271969548598040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

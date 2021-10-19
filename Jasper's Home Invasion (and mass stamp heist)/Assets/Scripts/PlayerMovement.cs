@@ -5,6 +5,8 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public CharacterController2D controller;
+    public Animator animator;
+    public AudioClip jumpers;
 
     public float runSpeed = 40f;
 
@@ -46,9 +48,17 @@ public class PlayerMovement : MonoBehaviour
     {
        horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
 
+        animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
+
         if (Input.GetButton("Jump"))
         {
             Jump = true;
+        }
+
+        //For jump sound effect
+        if (Input.GetButtonDown("Jump"))
+        {
+            GetComponent<AudioSource>().PlayOneShot(jumpers);
         }
 
         if (Input.GetButtonDown("Crouch"))
