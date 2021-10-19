@@ -8,9 +8,32 @@ public class PlayerMovement : MonoBehaviour
 
     public float runSpeed = 40f;
 
+    public int Lives = 3;
+
     float horizontalMove = 0f;
     bool Jump = false;
     bool Crouch = false;
+
+    void Respawn()
+    {
+        Vector3 pos = transform.position;
+        pos.x = -10;
+        pos.y = -0;
+        transform.position = pos;
+    }
+
+    void DamageCheck()
+    {
+        if (Lives >= 2)
+        {
+            Lives -= 1;
+        }
+        else if (Lives == 1)
+        {
+            Respawn();
+            Lives = 3;
+        }
+    }
 
     void Start()
     {
@@ -48,8 +71,9 @@ public class PlayerMovement : MonoBehaviour
     {
         if (collision.gameObject.tag == "Enemy")
         {
+            DamageCheck();
             Debug.Log("Damaged");
-            Destroy(this.gameObject);
+            //Destroy(this.gameObject);
         }
         //if (collision.gameObject.tag == "Health")
         //    Debug.Log("Healed");
