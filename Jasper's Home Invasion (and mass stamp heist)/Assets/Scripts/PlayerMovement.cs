@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -8,6 +9,14 @@ public class PlayerMovement : MonoBehaviour
     public Animator animator;
     public GameObject uiGameOver;
     public AudioClip jumpers;
+
+    //Hearts (not currently in use)
+    public GameObject Heart_1;
+    public GameObject Heart_2;
+    public GameObject Heart_3;
+    public GameObject canvas;
+
+    public TMP_Text healthAmountUI;
 
     public float runSpeed = 40f;
 
@@ -20,6 +29,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Respawn()
     {
+        //Let player move again and hide game over screen
         IsAlive = true;
         animator.SetBool("Alive", true);
         uiGameOver.SetActive(false);
@@ -36,13 +46,18 @@ public class PlayerMovement : MonoBehaviour
         if (Lives >= 2)
         {
             Lives -= 1;
+            healthAmountUI.text = (Lives).ToString();
         }
         else if (Lives == 1)
         {
+            healthAmountUI.text = "0";
+            //Show dead animation
             animator.SetBool("Alive", false);
-            IsAlive = false;
-            uiGameOver.SetActive(true);
+            //Stop the player from being able to move
             horizontalMove = 0f;
+            IsAlive = false;
+            //Show game over screen
+            uiGameOver.SetActive(true);
         }
     }
 
@@ -50,6 +65,7 @@ public class PlayerMovement : MonoBehaviour
     {
         //Set the tag of this GameObject to Player
         gameObject.tag = "Player";
+
     }
 
     // Update is called once per frame
@@ -88,6 +104,7 @@ public class PlayerMovement : MonoBehaviour
         {
             Respawn();
             Lives = 3;
+            healthAmountUI.text = (Lives).ToString();
         }
 
     }
@@ -109,3 +126,14 @@ public class PlayerMovement : MonoBehaviour
         //    Debug.Log("Healed");
     }
 }
+
+
+//Code not bein used but will be revisited at some point:
+
+////Give the player hearts
+//var createImage = Instantiate(Heart_1) as GameObject;
+//createImage.transform.SetParent(canvas.transform, false);
+//createImage = Instantiate(Heart_2) as GameObject;
+//createImage.transform.SetParent(canvas.transform, false);
+//createImage = Instantiate(Heart_3) as GameObject;
+//createImage.transform.SetParent(canvas.transform, false);
