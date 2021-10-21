@@ -40,6 +40,11 @@ public class PlayerMovement : MonoBehaviour
         transform.position = pos;
   
     }
+    
+    //void SpawnEnemies()
+    //{
+    //    GameObject.Find("Bunni").
+    //}
 
     void DamageCheck()
     {
@@ -117,10 +122,13 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Enemy")
+        if (collision.gameObject.GetComponent<Rigidbody2D>().velocity.y > 0f)
         {
-            DamageCheck();
-            Debug.Log("Damaged");
+            if (collision.gameObject.tag == "Enemy")
+            {
+                DamageCheck();
+                Debug.Log("Damaged");
+            }
         }
         //if (collision.gameObject.tag == "Health")
         //    Debug.Log("Healed");
