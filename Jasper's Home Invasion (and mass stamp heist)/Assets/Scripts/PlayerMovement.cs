@@ -105,7 +105,7 @@ public class PlayerMovement : MonoBehaviour
 
         }
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && IsAlive == false)
         {
             Respawn();
             Lives = 3;
@@ -122,7 +122,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.GetComponent<Rigidbody2D>().velocity.y > 0f)
+        if (collision.gameObject.GetComponent<Rigidbody2D>().velocity.y >= 0f)
         {
             if (collision.gameObject.tag == "Enemy")
             {
