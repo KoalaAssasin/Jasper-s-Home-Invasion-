@@ -11,12 +11,12 @@ public class PlayerMovement : MonoBehaviour
     public AudioClip jumpers;
 
     //Hearts (not currently in use)
-    public GameObject Heart_1;
-    public GameObject Heart_2;
-    public GameObject Heart_3;
-    public GameObject canvas;
+    //public GameObject Heart_1;
+    //public GameObject Heart_2;
+    //public GameObject Heart_3;
+    //public GameObject canvas;
 
-    public TMP_Text healthAmountUI;
+    //public TMP_Text healthAmountUI;
 
     public float runSpeed = 40f;
 
@@ -51,12 +51,14 @@ public class PlayerMovement : MonoBehaviour
         if (Lives >= 2)
         {
             Lives -= 1;
-            healthAmountUI.text = (Lives).ToString();
+            HealthMonitor.HealthValue -= 1;
+            //healthAmountUI.text = (Lives).ToString();
         }
         else if (Lives == 1)
         {
-            healthAmountUI.text = "0";
+            //healthAmountUI.text = "0";
             //Show dead animation
+            HealthMonitor.HealthValue -= 1;
             animator.SetBool("Alive", false);
             //Stop the player from being able to move
             horizontalMove = 0f;
@@ -109,7 +111,8 @@ public class PlayerMovement : MonoBehaviour
         {
             Respawn();
             Lives = 3;
-            healthAmountUI.text = (Lives).ToString();
+            HealthMonitor.HealthValue = 3;
+            //healthAmountUI.text = (Lives).ToString();
         }
 
     }
@@ -122,14 +125,14 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.GetComponent<Rigidbody2D>().velocity.y >= 0f)
-        {
+        //if (collision.gameObject.GetComponent<Rigidbody2D>().velocity.y >= 0f)
+        //{
             if (collision.gameObject.tag == "Enemy")
             {
                 DamageCheck();
                 Debug.Log("Damaged");
             }
-        }
+        //}
         //if (collision.gameObject.tag == "Health")
         //    Debug.Log("Healed");
     }
