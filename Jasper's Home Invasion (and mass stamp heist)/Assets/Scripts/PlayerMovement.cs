@@ -22,6 +22,7 @@ public class PlayerMovement : MonoBehaviour
 
     public int Lives = 3;
 
+    public float IFrames = 0;
     float horizontalMove = 0f;
     bool Jump = false;
     bool Crouch = false;
@@ -80,7 +81,15 @@ public class PlayerMovement : MonoBehaviour
     {
         if (IsAlive == true)
         {
-
+            if (IFrames >=0)
+            {
+                IFrames -= 1 * Time.deltaTime;
+            }
+            if (IFrames < 0)
+            {
+                IFrames = 0;
+            }
+            
             horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
 
             animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
@@ -114,7 +123,6 @@ public class PlayerMovement : MonoBehaviour
             HealthMonitor.HealthValue = 3;
             //healthAmountUI.text = (Lives).ToString();
         }
-
     }
 
     private void FixedUpdate()
@@ -127,9 +135,10 @@ public class PlayerMovement : MonoBehaviour
     {
         //if (collision.gameObject.GetComponent<Rigidbody2D>().velocity.y >= 0f)
         //{
-            if (collision.gameObject.tag == "Enemy")
+            if (collision.gameObject.tag == "Enemy" && IFrames == 0)
             {
                 DamageCheck();
+                IFrames = 0.6f;
                 Debug.Log("Damaged");
             }
         //}
