@@ -6,6 +6,7 @@ public class PlayerMovement : MonoBehaviour
 {
     public CharacterController2D controller;
     public Animator animator;
+    public GameObject uiGameOver;
     public AudioClip jumpers;
 
     public float runSpeed = 40f;
@@ -15,13 +16,19 @@ public class PlayerMovement : MonoBehaviour
     float horizontalMove = 0f;
     bool Jump = false;
     bool Crouch = false;
+    public bool IsAlive = true;
 
     void Respawn()
     {
+        IsAlive = true;
+        animator.SetBool("Alive", true);
+        uiGameOver.SetActive(false);
+
         Vector3 pos = transform.position;
         pos.x = -10;
         pos.y = -0;
         transform.position = pos;
+  
     }
 
     void DamageCheck()
@@ -32,8 +39,10 @@ public class PlayerMovement : MonoBehaviour
         }
         else if (Lives == 1)
         {
-            Respawn();
-            Lives = 3;
+            animator.SetBool("Alive", false);
+            IsAlive = false;
+            uiGameOver.SetActive(true);
+            horizontalMove = 0f;
         }
     }
 
@@ -46,28 +55,39 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
-
-        animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
-
-        if (Input.GetButton("Jump"))
+        if (IsAlive == true)
         {
-            Jump = true;
+
+            horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
+
+            animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
+
+            if (Input.GetButton("Jump"))
+            {
+                Jump = true;
+            }
+
+            //For jump sound effect
+            if (Input.GetButtonDown("Jump"))
+            {
+                GetComponent<AudioSource>().PlayOneShot(jumpers);
+            }
+
+            if (Input.GetButtonDown("Crouch"))
+            {
+                Crouch = true;
+            }
+            else if (Input.GetButton("Crouch"))
+            {
+                Crouch = false;
+            }
+
         }
 
-        //For jump sound effect
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            GetComponent<AudioSource>().PlayOneShot(jumpers);
-        }
-
-        if (Input.GetButtonDown("Crouch"))
-        {
-            Crouch = true;
-        } else if (Input.GetButton("Crouch"))
-        {
-            Crouch = false;
+            Respawn();
+            Lives = 3;
         }
 
     }
@@ -84,7 +104,6 @@ public class PlayerMovement : MonoBehaviour
         {
             DamageCheck();
             Debug.Log("Damaged");
-            //Destroy(this.gameObject);
         }
         //if (collision.gameObject.tag == "Health")
         //    Debug.Log("Healed");
