@@ -1,0 +1,728 @@
+fileFormatVersion: 2
+guid: 87b05206503f34a469c19f7dc59d22e7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1580086721385527545
+    second: JasperTilemaps_0
+  - first:
+      213: -7699386960004106103
+    second: JasperTilemaps_1
+  - first:
+      213: 4386664152948780524
+    second: JasperTilemaps_2
+  - first:
+      213: -2800823559810457318
+    second: JasperTilemaps_3
+  - first:
+      213: 4827473366769008490
+    second: JasperTilemaps_4
+  - first:
+      213: 2691789754689767245
+    second: JasperTilemaps_5
+  - first:
+      213: -7168127688626771442
+    second: JasperTilemaps_6
+  - first:
+      213: 8639464834018788303
+    second: JasperTilemaps_7
+  - first:
+      213: 6360718075674829152
+    second: JasperTilemaps_8
+  - first:
+      213: -178162944569663702
+    second: JasperTilemaps_9
+  - first:
+      213: 2573759684443978627
+    second: JasperTilemaps_10
+  - first:
+      213: 2140824475617609372
+    second: JasperTilemaps_11
+  - first:
+      213: 5400002274303076334
+    second: JasperTilemaps_12
+  - first:
+      213: 3734028127421736401
+    second: JasperTilemaps_14
+  - first:
+      213: 581690465268667029
+    second: JasperTilemaps_15
+  - first:
+      213: -5923356335266262111
+    second: JasperTilemaps_16
+  - first:
+      213: 2116992662139700018
+    second: JasperTilemaps_17
+  - first:
+      213: 7166749007847335976
+    second: JasperTilemaps_18
+  - first:
+      213: -265868785096850609
+    second: JasperTilemaps_19
+  - first:
+      213: -832648908763666139
+    second: JasperTilemaps_20
+  - first:
+      213: 7738620178823966946
+    second: JasperTilemaps_21
+  - first:
+      213: 5598511068290287494
+    second: JasperTilemaps_22
+  - first:
+      213: 1215555650059795174
+    second: JasperTilemaps_23
+  - first:
+      213: -4491152303563425706
+    second: JasperTilemaps_24
+  - first:
+      213: 7945197252928978043
+    second: JasperTilemaps_25
+  - first:
+      213: -667148628375557595
+    second: JasperTilemaps_26
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 212
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: JasperTilemaps_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1361
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f8fe7e50889de510800000000000000
+      internalID: 1580086721385527545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JasperTilemaps_1
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 1361
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9883eac5a58462590800000000000000
+      internalID: -7699386960004106103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JasperTilemaps_2
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 1361
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceda3793ecf80ec30800000000000000
+      internalID: 4386664152948780524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JasperTilemaps_3
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 1361
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a11e3fecfc97129d0800000000000000
+      internalID: -2800823559810457318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JasperTilemaps_4
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 1361
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6ffce43371aef240800000000000000
+      internalID: 4827473366769008490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JasperTilemaps_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1147
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d47c15a25882b5520800000000000000
+      internalID: 2691789754689767245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JasperTilemaps_6
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 1147
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0a62c678d1b58c90800000000000000
+      internalID: -7168127688626771442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JasperTilemaps_7
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 1147
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc34b212e7b85e770800000000000000
+      internalID: 8639464834018788303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JasperTilemaps_8
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 1147
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0612109a36fc54850800000000000000
+      internalID: 6360718075674829152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JasperTilemaps_9
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 1147
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2f99c0feb9078df0800000000000000
+      internalID: -178162944569663702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JasperTilemaps_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 933
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38b3180fbc4d7b320800000000000000
+      internalID: 2573759684443978627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JasperTilemaps_11
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 933
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9646ab948cb5bd10800000000000000
+      internalID: 2140824475617609372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JasperTilemaps_12
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 933
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee7e2224579a0fa40800000000000000
+      internalID: 5400002274303076334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JasperTilemaps_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 719
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d52a445ccee1d330800000000000000
+      internalID: 3734028127421736401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JasperTilemaps_15
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 719
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 592129f6564921800800000000000000
+      internalID: 581690465268667029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JasperTilemaps_16
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 719
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a3156edbc20ccda0800000000000000
+      internalID: -5923356335266262111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JasperTilemaps_17
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 719
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23302f22c91116d10800000000000000
+      internalID: 2116992662139700018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JasperTilemaps_18
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 719
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 828af176048657360800000000000000
+      internalID: 7166749007847335976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JasperTilemaps_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 505
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f430073afb17f4cf0800000000000000
+      internalID: -265868785096850609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JasperTilemaps_20
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 505
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5296682aa36d174f0800000000000000
+      internalID: -832648908763666139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JasperTilemaps_21
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 505
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e0f87a3d0a156b60800000000000000
+      internalID: 7738620178823966946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JasperTilemaps_22
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 505
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68709888728e1bd40800000000000000
+      internalID: 5598511068290287494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JasperTilemaps_23
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 505
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ea78866c658ed010800000000000000
+      internalID: 1215555650059795174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JasperTilemaps_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 291
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 658bce966c83ca1c0800000000000000
+      internalID: -4491152303563425706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JasperTilemaps_25
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 291
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7cbd3b5ec2034e60800000000000000
+      internalID: 7945197252928978043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JasperTilemaps_26
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 291
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a29417bdfcdb6f0800000000000000
+      internalID: -667148628375557595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

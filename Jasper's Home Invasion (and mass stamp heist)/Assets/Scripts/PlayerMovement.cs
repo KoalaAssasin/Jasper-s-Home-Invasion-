@@ -135,12 +135,19 @@ public class PlayerMovement : MonoBehaviour
     {
         //if (collision.gameObject.GetComponent<Rigidbody2D>().velocity.y >= 0f)
         //{
-            if (collision.gameObject.tag == "Enemy" && IFrames == 0)
-            {
-                DamageCheck();
-                IFrames = 0.6f;
-                Debug.Log("Damaged");
-            }
+        if (collision.gameObject.tag == "Enemy" && IFrames == 0)
+        {
+            DamageCheck();
+            IFrames = 0.5f;
+            Debug.Log("Damaged");
+        }
+
+        //Instant kill, mostly used when falling off the map
+        if (collision.gameObject.tag == "Instadeath")
+        {
+            Lives = 1;
+            DamageCheck();
+        }
         //}
         //if (collision.gameObject.tag == "Health")
         //    Debug.Log("Healed");
