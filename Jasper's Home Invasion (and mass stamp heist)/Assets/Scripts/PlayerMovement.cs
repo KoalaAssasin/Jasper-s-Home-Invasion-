@@ -140,7 +140,7 @@ public class PlayerMovement : MonoBehaviour
         if (collision.gameObject.tag == "Enemy" && IFrames == 0)
         {
             DamageCheck();
-            IFrames = 0.5f;
+            IFrames = 0.7f;
             Debug.Log("Damaged");
         }
 
