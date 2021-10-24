@@ -17,11 +17,12 @@ public class PlayerMovement : MonoBehaviour
     //public GameObject Heart_3;
     //public GameObject canvas;
 
-    //public TMP_Text healthAmountUI;
+    public TMP_Text stampAmountUI;
 
     public float runSpeed = 40f;
 
     public int Lives = 3;
+    public int Stamps = 0;
 
     public float IFrames = 0;
     float horizontalMove = 0f;
@@ -150,9 +151,17 @@ public class PlayerMovement : MonoBehaviour
             DamageCheck();
         }
 
+        //Taking the player to next level/ End of demo screen
         if (collision.gameObject.tag == "Level ender")
         {
             SceneManager.LoadScene(3);
+        }
+
+        if (collision.gameObject.tag == "Stamp")
+        {
+            collision.gameObject.SetActive(false);
+            Stamps += 1;
+            stampAmountUI.text = (Stamps).ToString();
         }
 
 

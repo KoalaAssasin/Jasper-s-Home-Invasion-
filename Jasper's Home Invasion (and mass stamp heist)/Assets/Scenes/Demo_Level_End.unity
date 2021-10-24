@@ -331,8 +331,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 105.92, y: 8}
-  m_SizeDelta: {x: 132.39017, y: 46.01648}
+  m_AnchoredPosition: {x: 109.5, y: -14.04}
+  m_SizeDelta: {x: 132.39017, y: 38.545242}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &156015101
 MonoBehaviour:
@@ -1198,19 +1198,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '-Wall Jumping!    -More sights!
-
-    -New enemies!    -More sounds!
-
-    -More
-    stamps!     -
-
-    -More levels!
-
-    -Buttons/Switches/Doors!
-
-    -And at least
-    1 other thing!'
+  m_text: "-Wall Jumping!    -More sights!\n-New enemies!    -More sounds!\n-Many
+    more stamps!  \n-More levels!        -\n-Buttons/Switches/Doors!\n-And at least
+    1 other thing!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
