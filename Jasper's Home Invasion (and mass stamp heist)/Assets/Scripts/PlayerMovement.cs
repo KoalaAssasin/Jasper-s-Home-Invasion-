@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 using TMPro;
 
@@ -148,6 +149,13 @@ public class PlayerMovement : MonoBehaviour
             Lives = 1;
             DamageCheck();
         }
+
+        if (collision.gameObject.tag == "Level ender")
+        {
+            SceneManager.LoadScene(3);
+        }
+
+
         //}
         //if (collision.gameObject.tag == "Health")
         //    Debug.Log("Healed");

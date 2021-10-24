@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enemy
   - Instadeath
+  - Level ender
   layers:
   - Default
   - TransparentFX
