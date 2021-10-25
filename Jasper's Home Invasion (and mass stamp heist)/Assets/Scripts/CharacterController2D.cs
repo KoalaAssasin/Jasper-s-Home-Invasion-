@@ -8,12 +8,14 @@ public class CharacterController2D : MonoBehaviour
 	[Range(0, .3f)] [SerializeField] private float m_MovementSmoothing = .05f;	// How much to smooth out the movement
 	[SerializeField] private bool m_AirControl = false;							// Whether or not a player can steer while jumping;
 	[SerializeField] private LayerMask m_WhatIsGround;							// A mask determining what is ground to the character
-	[SerializeField] private Transform m_GroundCheck;							// A position marking where to check if the player is grounded.
+	[SerializeField] private Transform m_GroundCheck;
 	[SerializeField] private Transform m_CeilingCheck;							// A position marking where to check for ceilings
-	[SerializeField] private Collider2D m_CrouchDisableCollider;				// A collider that will be disabled when crouching
+	[SerializeField] private Collider2D m_CrouchDisableCollider;                // A collider that will be disabled when crouching
 
+	public float JumpCD = 1.0f;
 	const float k_GroundedRadius = .2f; // Radius of the overlap circle to determine if grounded
-	private bool m_Grounded;            // Whether or not the player is grounded.
+	public bool Onwall = false;
+	public bool m_Grounded;            // Whether or not the player is grounded.
 	const float k_CeilingRadius = .2f; // Radius of the overlap circle to determine if the player can stand up
 	private Rigidbody2D m_Rigidbody2D;
 	private bool m_FacingRight = true;  // For determining which way the player is currently facing.
@@ -57,6 +59,33 @@ public class CharacterController2D : MonoBehaviour
 				if (!wasGrounded)
 					OnLandEvent.Invoke();
 			}
+		}
+	}
+
+    private void Update()
+    {
+		if (JumpCD >= 0)
+		{
+			JumpCD -= 1 * Time.deltaTime;
+		}
+		if (JumpCD < 0)
+		{
+			JumpCD = 0;
+		}
+	}
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+		if (collision.gameObject.tag == "Wall")
+		{
+			Debug.Log("On Wall");
+			Onwall = true;
+		}
+
+		if (collision.gameObject.tag != "Wall")
+		{
+			Debug.Log("Off Wall");
+			Onwall = false;
 		}
 	}
 
@@ -124,11 +153,21 @@ public class CharacterController2D : MonoBehaviour
 			}
 		}
 		// If the player should jump...
-		if (m_Grounded && jump)
+		if ((m_Grounded && jump) || (Onwall == true && jump))
 		{
-			// Add a vertical force to the player.
-			m_Grounded = false;
-			m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
+			if (m_Grounded && jump)
+			{
+				// Add a vertical force to the player.
+				m_Grounded = false;
+				m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
+			}
+			if (Onwall == true && jump)
+            {
+				//if (JumpCD == 0f)
+				m_Grounded = false;
+				//Onwall = false;
+				m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
+			}
 		}
 	}
 

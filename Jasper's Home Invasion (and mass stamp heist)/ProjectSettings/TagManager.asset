@@ -8,6 +8,7 @@ TagManager:
   - Instadeath
   - Level ender
   - Stamp
+  - Wall
   layers:
   - Default
   - TransparentFX
