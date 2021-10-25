@@ -163,15 +163,27 @@ public class CharacterController2D : MonoBehaviour
 			{
 				// Add a vertical force to the player.
 				m_Grounded = false;
-				m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
+				m_Rigidbody2D.AddForce(new Vector2(10f, m_JumpForce));
+
 			}
 			if (Onwall == true && jump)
             {
-				//if (JumpCD == 0f)
-				m_Grounded = false;
-				//Onwall = false;
-				//animator.SetBool("Onwall", false);
-				m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
+				if (JumpCD == 0f)
+				{
+					m_Grounded = false;
+					Onwall = false;
+					//animator.SetBool("Onwall", false);
+					if (m_FacingRight)
+                    {
+						gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(-8.0f, 10.0f); // -10 is left jump // 10 is right jump
+					}
+					else if (!m_FacingRight)
+                    {
+						gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(8.0f, 10.0f); // -10 is left jump // 10 is right jump
+					}
+					
+				}
+				
 			}
 		}
 	}
