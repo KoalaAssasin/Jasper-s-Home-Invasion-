@@ -12,6 +12,8 @@ public class CharacterController2D : MonoBehaviour
 	[SerializeField] private Transform m_CeilingCheck;							// A position marking where to check for ceilings
 	[SerializeField] private Collider2D m_CrouchDisableCollider;                // A collider that will be disabled when crouching
 
+	public Animator animator;
+
 	public float JumpCD = 1.0f;
 	const float k_GroundedRadius = .2f; // Radius of the overlap circle to determine if grounded
 	public bool Onwall = false;
@@ -80,12 +82,14 @@ public class CharacterController2D : MonoBehaviour
 		{
 			Debug.Log("On Wall");
 			Onwall = true;
+			animator.SetBool("Onwall", true);
 		}
 
 		if (collision.gameObject.tag != "Wall")
 		{
 			Debug.Log("Off Wall");
 			Onwall = false;
+			animator.SetBool("Onwall", false);
 		}
 	}
 
@@ -166,6 +170,7 @@ public class CharacterController2D : MonoBehaviour
 				//if (JumpCD == 0f)
 				m_Grounded = false;
 				//Onwall = false;
+				//animator.SetBool("Onwall", false);
 				m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
 			}
 		}
