@@ -34,7 +34,7 @@ public class Enemy : MonoBehaviour
                 //Destroy(gameObject);
                 gameObject.SetActive(false);
 
-                Invoke("Respawn", 5);
+               // Invoke("Respawn", 5);
 
             }
         }

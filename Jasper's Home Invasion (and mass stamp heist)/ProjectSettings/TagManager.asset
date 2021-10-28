@@ -9,6 +9,7 @@ TagManager:
   - Level ender
   - Stamp
   - Wall
+  - Music
   layers:
   - Default
   - TransparentFX
