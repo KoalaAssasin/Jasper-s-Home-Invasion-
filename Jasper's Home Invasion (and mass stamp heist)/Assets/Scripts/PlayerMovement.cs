@@ -120,9 +120,10 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space) && IsAlive == false)
         {
-            Respawn();
+            //Respawn();
             Lives = 3;
             HealthMonitor.HealthValue = 3;
+            SceneManager.LoadScene(2);
             //healthAmountUI.text = (Lives).ToString();
         }
     }

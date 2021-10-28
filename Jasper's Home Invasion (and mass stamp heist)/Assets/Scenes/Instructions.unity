@@ -285,8 +285,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000011444, y: -0.0000030547}
-  m_SizeDelta: {x: 633.1199, y: 213.65308}
+  m_AnchoredPosition: {x: -0.000011444, y: -12.6}
+  m_SizeDelta: {x: 633.1199, y: 238.94562}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &750393176
 MonoBehaviour:
@@ -325,13 +325,16 @@ MonoBehaviour:
     Jump on enemies to remove
     them and get extra height!
 
-    Be careful - enemies will respawn after a few
-    seconds
+    Don''t move while jumping on them or you''ll
+    take a hit!
 
-    Collect stamps (More coming soon)
+    Most wall can be slip on and walljumped
 
-    Take three hits, and you''re
-    back to the start of the level
+    Collect stamps
+    (More coming soon)
+
+    Take three hits, and you''re back to the start of the
+    level
 
 
     Have Fun! (Not required but reccommended)'
