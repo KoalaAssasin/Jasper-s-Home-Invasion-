@@ -3208,6 +3208,8 @@ MonoBehaviour:
   animator: {fileID: 962825395}
   uiGameOver: {fileID: 1987569178}
   jumpers: {fileID: 8300000, guid: 093c78f1d5102ea4c8d896884a1e8aab, type: 3}
+  pain: {fileID: 8300000, guid: cc08d405df224f64f9c86e3d16783ee5, type: 3}
+  stampGet: {fileID: 8300000, guid: f48d8a5aba47bb14aa2697280fa3d2ae, type: 3}
   stampAmountUI: {fileID: 324772220}
   runSpeed: 60
   Lives: 3
@@ -3226,7 +3228,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.675
   m_Pitch: 1
   Loop: 0
   Mute: 0

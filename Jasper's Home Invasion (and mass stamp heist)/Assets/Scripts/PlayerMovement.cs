@@ -10,6 +10,8 @@ public class PlayerMovement : MonoBehaviour
     public Animator animator;
     public GameObject uiGameOver;
     public AudioClip jumpers;
+    public AudioClip pain;
+    public AudioClip stampGet;
 
     //Hearts (not currently in use)
     //public GameObject Heart_1;
@@ -51,6 +53,9 @@ public class PlayerMovement : MonoBehaviour
 
     void DamageCheck()
     {
+        //Play damage sound
+        GetComponent<AudioSource>().PlayOneShot(pain);
+
         if (Lives >= 2)
         {
             Lives -= 1;
@@ -161,6 +166,10 @@ public class PlayerMovement : MonoBehaviour
 
         if (collision.gameObject.tag == "Stamp")
         {
+
+            //Play sound
+            GetComponent<AudioSource>().PlayOneShot(stampGet);
+
             collision.gameObject.SetActive(false);
             Stamps += 1;
             stampAmountUI.text = (Stamps).ToString();
