@@ -9,6 +9,7 @@ public class PlayerMovement : MonoBehaviour
     public CharacterController2D controller;
     public Animator animator;
     public GameObject uiGameOver;
+    public GameObject uiPause;
     public AudioClip jumpers;
     public AudioClip pain;
     public AudioClip stampGet;
@@ -31,6 +32,7 @@ public class PlayerMovement : MonoBehaviour
     bool Jump = false;
     bool Crouch = false;
     public bool IsAlive = true;
+    public bool IsPaused = false;
 
     void Respawn()
     {
@@ -80,13 +82,14 @@ public class PlayerMovement : MonoBehaviour
     {
         //Set the tag of this GameObject to Player
         gameObject.tag = "Player";
+        IsPaused = false;
 
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (IsAlive == true)
+        if (IsAlive == true && IsPaused == false)
         {
             if (IFrames >=0)
             {
@@ -128,9 +131,24 @@ public class PlayerMovement : MonoBehaviour
             //Respawn();
             Lives = 3;
             HealthMonitor.HealthValue = 3;
-            SceneManager.LoadScene(2);
+            //Reloads current scene
+            Scene scene = SceneManager.GetActiveScene(); SceneManager.LoadScene(scene.name);
+
+            //Reloads demo level
+            // SceneManager.LoadScene(2);
             //healthAmountUI.text = (Lives).ToString();
         }
+
+        //Pauses the game
+        if (IsPaused == false)
+        {
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                uiPause.SetActive(true);
+                IsPaused = true;
+            }
+        }
+
     }
 
     private void FixedUpdate()
@@ -180,7 +198,16 @@ public class PlayerMovement : MonoBehaviour
         //if (collision.gameObject.tag == "Health")
         //    Debug.Log("Healed");
     }
+
+    //Continues the level from the pause menu
+    public void Continue()
+    {
+        uiPause.SetActive(false);
+        IsPaused = false;
+    }
+
 }
+
 
 
 //Code not bein used but will be revisited at some point:

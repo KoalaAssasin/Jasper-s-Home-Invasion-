@@ -1,0 +1,728 @@
+fileFormatVersion: 2
+guid: 1138aa44ea069424785474b8d0616fa7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3859527462049103968
+    second: Level1_Redux_0
+  - first:
+      213: -5047905445659903760
+    second: Level1_Redux_1
+  - first:
+      213: -6955402498442095587
+    second: Level1_Redux_2
+  - first:
+      213: 2422313135307855237
+    second: Level1_Redux_3
+  - first:
+      213: 8548880979022372141
+    second: Level1_Redux_4
+  - first:
+      213: -3583148855311193028
+    second: Level1_Redux_5
+  - first:
+      213: 2519436653544868298
+    second: Level1_Redux_6
+  - first:
+      213: 69665190966888906
+    second: Level1_Redux_7
+  - first:
+      213: 6696429147444199761
+    second: Level1_Redux_8
+  - first:
+      213: 7376527140108039198
+    second: Level1_Redux_9
+  - first:
+      213: 5547335606242260532
+    second: Level1_Redux_10
+  - first:
+      213: -4623968979913919885
+    second: Level1_Redux_11
+  - first:
+      213: -6145320017082953663
+    second: Level1_Redux_12
+  - first:
+      213: -7141778767208242856
+    second: Level1_Redux_14
+  - first:
+      213: 4117872531835224188
+    second: Level1_Redux_15
+  - first:
+      213: 3632579182006436673
+    second: Level1_Redux_16
+  - first:
+      213: -7366846032140402662
+    second: Level1_Redux_17
+  - first:
+      213: -2278344119096014667
+    second: Level1_Redux_18
+  - first:
+      213: -1368520303856567948
+    second: Level1_Redux_19
+  - first:
+      213: -636817548306466558
+    second: Level1_Redux_20
+  - first:
+      213: -6119647053878686152
+    second: Level1_Redux_21
+  - first:
+      213: 4624147219278293180
+    second: Level1_Redux_22
+  - first:
+      213: -9179441831918501579
+    second: Level1_Redux_23
+  - first:
+      213: -2706457011688525999
+    second: Level1_Redux_24
+  - first:
+      213: 5990867484697258559
+    second: Level1_Redux_25
+  - first:
+      213: 5345715969114077749
+    second: Level1_Redux_26
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 214
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Level1_Redux_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1361
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0afb2bfc834307ac0800000000000000
+      internalID: -3859527462049103968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level1_Redux_1
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 1361
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f87eabfdbc32f9b0800000000000000
+      internalID: -5047905445659903760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level1_Redux_2
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 1361
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d149e7a6742797f90800000000000000
+      internalID: -6955402498442095587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level1_Redux_3
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 1361
+        width: 211
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58599cc66f8cd9120800000000000000
+      internalID: 2422313135307855237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level1_Redux_4
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 1361
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2dd8bdd4f9b3a670800000000000000
+      internalID: 8548880979022372141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level1_Redux_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1147
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c24d5b919164ec0800000000000000
+      internalID: -3583148855311193028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level1_Redux_6
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 1147
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac904a0b946d6f220800000000000000
+      internalID: 2519436653544868298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level1_Redux_7
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 1147
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac98ac04f1087f000800000000000000
+      internalID: 69665190966888906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level1_Redux_8
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 1148
+        width: 212
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 151cbf494de7eec50800000000000000
+      internalID: 6696429147444199761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level1_Redux_9
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 1148
+        width: 214
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e14fa26f950be5660800000000000000
+      internalID: 7376527140108039198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level1_Redux_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 933
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43632f3c7581cfc40800000000000000
+      internalID: 5547335606242260532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level1_Redux_11
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 933
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3723ecb26bc54dfb0800000000000000
+      internalID: -4623968979913919885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level1_Redux_12
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 933
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1405ca6f00077baa0800000000000000
+      internalID: -6145320017082953663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level1_Redux_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 717
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851202ccc0e43ec90800000000000000
+      internalID: -7141778767208242856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level1_Redux_15
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 717
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c708062104f952930800000000000000
+      internalID: 4117872531835224188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level1_Redux_16
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 717
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14309f11583896230800000000000000
+      internalID: 3632579182006436673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level1_Redux_17
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 719
+        width: 214
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a108643a094b3c990800000000000000
+      internalID: -7366846032140402662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level1_Redux_18
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 719
+        width: 214
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b88e294812b160e0800000000000000
+      internalID: -2278344119096014667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level1_Redux_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 503
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47938bcc80a020de0800000000000000
+      internalID: -1368520303856567948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level1_Redux_20
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 503
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 209357650d19927f0800000000000000
+      internalID: -636817548306466558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level1_Redux_21
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 503
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e8bc28d65a21ba0800000000000000
+      internalID: -6119647053878686152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level1_Redux_22
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 505
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb8613a65654c2040800000000000000
+      internalID: 4624147219278293180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level1_Redux_23
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 505
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5310324e9421c9080800000000000000
+      internalID: -9179441831918501579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level1_Redux_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 289
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15fa072ffabb07ad0800000000000000
+      internalID: -2706457011688525999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level1_Redux_25
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 289
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3a61d18c36d32350800000000000000
+      internalID: 5990867484697258559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level1_Redux_26
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 289
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53a7d21e95ccf2a40800000000000000
+      internalID: 5345715969114077749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

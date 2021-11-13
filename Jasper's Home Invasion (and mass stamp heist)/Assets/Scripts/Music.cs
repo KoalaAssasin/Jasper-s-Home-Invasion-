@@ -29,7 +29,7 @@ public class Music : MonoBehaviour
 
     public void PlayMusic()
     {
-        _audioSource.volume = 0.5f;
+        _audioSource.volume = 0.45f;
         if (_audioSource.isPlaying) return;
         _audioSource.Play();
     }

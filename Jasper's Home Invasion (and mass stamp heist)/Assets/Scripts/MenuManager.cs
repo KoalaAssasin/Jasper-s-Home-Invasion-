@@ -39,4 +39,9 @@ public class MenuManager : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public void RestartCurrentScene()
+    {
+        Scene scene = SceneManager.GetActiveScene(); SceneManager.LoadScene(scene.name);
+    }
 }
