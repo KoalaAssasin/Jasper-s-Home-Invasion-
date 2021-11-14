@@ -10,6 +10,8 @@ TagManager:
   - Stamp
   - Wall
   - Music
+  - EnemyMoving
+  - EnemyIdle
   layers:
   - Default
   - TransparentFX

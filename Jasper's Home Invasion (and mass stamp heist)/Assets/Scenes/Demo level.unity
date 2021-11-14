@@ -1116,7 +1116,7 @@ RectTransform:
   m_GameObject: {fileID: 203202014}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_Children:
   - {fileID: 543625544}
   m_Father: {fileID: 749133647}
@@ -1140,13 +1140,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.39215687}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: c2ecc399526f94442a4fa959bd1876c0, type: 3}
+  m_Texture: {fileID: 2800000, guid: 749cbb829e85b664fbdccbce1c882525, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -2177,6 +2177,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bunni (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 4781724868307614911, guid: 688e12cb92f935d4f8ba9dc0da563a18,
+        type: 3}
+      propertyPath: m_TagString
+      value: EnemyIdle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 688e12cb92f935d4f8ba9dc0da563a18, type: 3}
 --- !u!1 &485578863
@@ -2309,7 +2314,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: c2ecc399526f94442a4fa959bd1876c0, type: 3}
+  m_Texture: {fileID: 2800000, guid: fe506bf421bda554197f48b78a895637, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -2504,7 +2509,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: c2ecc399526f94442a4fa959bd1876c0, type: 3}
+  m_Texture: {fileID: 2800000, guid: fe506bf421bda554197f48b78a895637, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -3021,6 +3026,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Bunni (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4781724868307614911, guid: 688e12cb92f935d4f8ba9dc0da563a18,
+        type: 3}
+      propertyPath: m_TagString
+      value: EnemyIdle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 688e12cb92f935d4f8ba9dc0da563a18, type: 3}
@@ -3799,6 +3809,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bunni (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 4781724868307614911, guid: 688e12cb92f935d4f8ba9dc0da563a18,
+        type: 3}
+      propertyPath: m_TagString
+      value: EnemyMoving
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 688e12cb92f935d4f8ba9dc0da563a18, type: 3}
 --- !u!1 &870363939
@@ -3980,7 +3995,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: c2ecc399526f94442a4fa959bd1876c0, type: 3}
+  m_Texture: {fileID: 2800000, guid: fe506bf421bda554197f48b78a895637, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -5760,7 +5775,7 @@ RectTransform:
   m_GameObject: {fileID: 1430146111}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_Children:
   - {fileID: 919157627}
   m_Father: {fileID: 749133647}
@@ -5784,13 +5799,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.39215687}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: c2ecc399526f94442a4fa959bd1876c0, type: 3}
+  m_Texture: {fileID: 2800000, guid: 749cbb829e85b664fbdccbce1c882525, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -17930,7 +17945,7 @@ RectTransform:
   m_GameObject: {fileID: 2082326768}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_Children:
   - {fileID: 485626080}
   m_Father: {fileID: 749133647}
@@ -17954,13 +17969,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.39215687}
+  m_Color: {r: 1, g: 0.9575472, b: 0.9575472, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: c2ecc399526f94442a4fa959bd1876c0, type: 3}
+  m_Texture: {fileID: 2800000, guid: 749cbb829e85b664fbdccbce1c882525, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -18135,6 +18150,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Bunni
+      objectReference: {fileID: 0}
+    - target: {fileID: 4781724868307614911, guid: 688e12cb92f935d4f8ba9dc0da563a18,
+        type: 3}
+      propertyPath: m_TagString
+      value: EnemyIdle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 688e12cb92f935d4f8ba9dc0da563a18, type: 3}

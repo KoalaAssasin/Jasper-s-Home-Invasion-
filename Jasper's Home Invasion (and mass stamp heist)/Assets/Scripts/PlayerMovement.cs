@@ -162,7 +162,7 @@ public class PlayerMovement : MonoBehaviour
         //if (collision.gameObject.GetComponent<Rigidbody2D>().velocity.y >= 0f)
         //{
 
-        if (collision.gameObject.tag == "Enemy" && IFrames == 0)
+        if ((collision.gameObject.tag == "EnemyIdle" || collision.gameObject.tag == "EnemyMoving") && IFrames == 0)
         {
             DamageCheck();
             IFrames = 0.7f;
