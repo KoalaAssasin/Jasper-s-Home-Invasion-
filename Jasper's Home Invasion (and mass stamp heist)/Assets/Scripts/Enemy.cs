@@ -57,14 +57,14 @@ public class Enemy : MonoBehaviour
         {
             if (Timer != 0 && movingRight)
             {
-                pos.x += 0.03f;
+                pos.x += 0.01f;
                 gameObject.transform.position = pos;
                 Timer -= Time.deltaTime;
             }
 
             if (Timer != 0 && movingLeft)
             {
-                pos.x -= 0.03f;
+                pos.x -= 0.01f;
                 gameObject.transform.position = pos;
                 Timer -= Time.deltaTime;
             }
