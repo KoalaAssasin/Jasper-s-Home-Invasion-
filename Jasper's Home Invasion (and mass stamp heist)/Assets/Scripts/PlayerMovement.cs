@@ -24,7 +24,7 @@ public class PlayerMovement : MonoBehaviour
 
     public float runSpeed = 40f;
 
-    public int Lives = 3;
+    public static int Lives = 3;
     public int Stamps = 0;
 
     public float IFrames = 0;
