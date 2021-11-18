@@ -12,6 +12,7 @@ TagManager:
   - Music
   - EnemyMoving
   - EnemyIdle
+  - Heart
   layers:
   - Default
   - TransparentFX
