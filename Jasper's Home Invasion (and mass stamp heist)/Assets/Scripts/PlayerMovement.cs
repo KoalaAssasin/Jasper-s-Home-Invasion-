@@ -179,7 +179,7 @@ public class PlayerMovement : MonoBehaviour
         //Taking the player to next level/ End of demo screen
         if (collision.gameObject.tag == "Level ender")
         {
-            SceneManager.LoadScene(3);
+            SceneManager.LoadScene(4);
         }
 
         if (collision.gameObject.tag == "Stamp")
@@ -191,6 +191,14 @@ public class PlayerMovement : MonoBehaviour
             collision.gameObject.SetActive(false);
             Stamps += 1;
             stampAmountUI.text = (Stamps).ToString();
+        }
+
+        if (collision.gameObject.tag == "Heart")
+        {
+
+            //Play sound
+            GetComponent<AudioSource>().PlayOneShot(stampGet);
+
         }
 
 
