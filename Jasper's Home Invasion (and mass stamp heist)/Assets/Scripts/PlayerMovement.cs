@@ -14,13 +14,18 @@ public class PlayerMovement : MonoBehaviour
     public AudioClip pain;
     public AudioClip stampGet;
 
+    //StampUI stuff
+    public GameObject Stamp1;
+    public GameObject Stamp2;
+    public GameObject Stamp3;
+    public GameObject Stamp4;
+    public GameObject Stamp5;
+
     //Hearts (not currently in use)
     //public GameObject Heart_1;
     //public GameObject Heart_2;
     //public GameObject Heart_3;
     //public GameObject canvas;
-
-    public TMP_Text stampAmountUI;
 
     public float runSpeed = 40f;
 
@@ -162,7 +167,7 @@ public class PlayerMovement : MonoBehaviour
         //if (collision.gameObject.GetComponent<Rigidbody2D>().velocity.y >= 0f)
         //{
 
-        if ((collision.gameObject.tag == "EnemyIdle" || collision.gameObject.tag == "EnemyMoving") && IFrames == 0)
+        if ((collision.gameObject.tag == "EnemyIdle" || collision.gameObject.tag == "EnemyMoving" || collision.gameObject.tag == "EnemyFlying") && IFrames == 0)
         {
             DamageCheck();
             IFrames = 0.7f;
@@ -182,15 +187,9 @@ public class PlayerMovement : MonoBehaviour
             SceneManager.LoadScene(4);
         }
 
-        if (collision.gameObject.tag == "Stamp")
+        if (collision.gameObject.tag == "Level Ender 2")
         {
-
-            //Play sound
-            GetComponent<AudioSource>().PlayOneShot(stampGet);
-
-            collision.gameObject.SetActive(false);
-            Stamps += 1;
-            stampAmountUI.text = (Stamps).ToString();
+            SceneManager.LoadScene(3);
         }
 
         if (collision.gameObject.tag == "Heart")
@@ -199,6 +198,40 @@ public class PlayerMovement : MonoBehaviour
             //Play sound
             GetComponent<AudioSource>().PlayOneShot(stampGet);
 
+        }
+
+        //Stamp time
+        if (collision.gameObject.tag == "Stamp1" || collision.gameObject.tag == "Stamp2" || collision.gameObject.tag == "Stamp3" || collision.gameObject.tag == "Stamp4" || collision.gameObject.tag == "Stamp5")
+        {
+            //Play sound
+            GetComponent<AudioSource>().PlayOneShot(stampGet);
+            collision.gameObject.SetActive(false);
+            Stamps += 1;
+        }
+       
+        if (collision.gameObject.tag == "Stamp1")
+        {
+            Stamp1.SetActive(true);
+        }
+
+        if (collision.gameObject.tag == "Stamp2")
+        {
+            Stamp2.SetActive(true);
+        }
+
+        if (collision.gameObject.tag == "Stamp3")
+        {
+            Stamp3.SetActive(true);
+        }
+
+        if (collision.gameObject.tag == "Stamp4")
+        {
+            Stamp4.SetActive(true);
+        }
+
+        if (collision.gameObject.tag == "Stamp5")
+        {
+            Stamp5.SetActive(true);
         }
 
 

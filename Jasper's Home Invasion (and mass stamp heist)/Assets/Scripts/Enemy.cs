@@ -87,6 +87,38 @@ public class Enemy : MonoBehaviour
 
         }
 
+        if (gameObject.tag == "EnemyFlying")
+        {
+            if (Timer != 0 && movingRight)
+            {
+                pos.y += 0.01f;
+                gameObject.transform.position = pos;
+                Timer -= Time.deltaTime;
+            }
+
+            if (Timer != 0 && movingLeft)
+            {
+                pos.y -= 0.01f;
+                gameObject.transform.position = pos;
+                Timer -= Time.deltaTime;
+            }
+
+            if (Timer <= 0 && movingRight)
+            {
+                movingRight = false;
+                movingLeft = true;
+                Timer = 2.0f;
+            }
+
+            if (Timer <= 0 && movingLeft)
+            {
+                movingRight = true;
+                movingLeft = false;
+                Timer = 2.0f;
+            }
+
+        }
+
         if (gameObject.tag == "EnemyIdle")
         {
          
